@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://chat-app-tau-gules.vercel.app/login",
+    origin: "https://chat-app-tau-gules.vercel.app",
     credentials: true,
   })
 );
